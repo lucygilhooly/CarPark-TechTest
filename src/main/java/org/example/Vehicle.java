@@ -65,9 +65,13 @@ public class Vehicle {
 
     public static String makeBrand(){return brands.get(RANDOM.nextInt(brands.size()));}
 
-//    public void parkVehicle(){
-//
-//        }
-
+    @Override
+    public String toString() {
+        return "Vehicle{" +
+                "brand='" + brand + '\'' +
+                ", wheels=" + wheels +
+                ", vehicleId=" + vehicleId +
+                '}';
     }
+}
 

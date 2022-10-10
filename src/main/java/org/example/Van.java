@@ -5,8 +5,13 @@ public class Van extends Vehicle {
         super(brand, wheels, vehicleId);
     }
 
-    // extend vehicle class
-    // constructor, getter, setter
-    // space type possibly as a parameter
+    @Override
+    public String toString() {
+        return "Van{" +
+                "brand='" + brand + '\'' +
+                ", wheels=" + wheels +
+                ", vehicleId=" + vehicleId +
+                '}';
+    }
 
 }
