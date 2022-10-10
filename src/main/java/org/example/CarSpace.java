@@ -1,8 +1,17 @@
 package org.example;
 
 public class CarSpace extends Space{
-    public CarSpace(String type) {
-        super(type);
+
+
+    public CarSpace(int amount) {
+        super(amount);
+    }
+
+    @Override
+    public String toString() {
+        return "CarSpace{" +
+                "amount=" + amount +
+                '}';
     }
 
     @Override

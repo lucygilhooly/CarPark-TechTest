@@ -8,7 +8,6 @@ public class Vehicle {
     String brand;
     // use this class to build a standard vehicle and then make each car van and motorbike class extend this one
     // maybe include things like colour, doors, drive function, park function
-    // possibly use this as an interface with a drive and park function ??
     int wheels;
     int vehicleId;
     public Vehicle(String brand, int wheels, int vehicleId) {
@@ -66,7 +65,9 @@ public class Vehicle {
 
     public static String makeBrand(){return brands.get(RANDOM.nextInt(brands.size()));}
 
-    public void parkVehicle(){
+//    public void parkVehicle(){
+//
+//        }
 
     }
-}
+

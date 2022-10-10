@@ -2,8 +2,16 @@ package org.example;
 
 public class VanSpace extends Space{
 
-    public VanSpace(String type) {
-        super(type);
+
+    public VanSpace(int amount) {
+        super(amount);
+    }
+
+    @Override
+    public String toString() {
+        return "VanSpace{" +
+                "amount=" + amount +
+                '}';
     }
 
     @Override
